@@ -5,6 +5,10 @@ This Slackbot was built for our Product Management Community's Slack workspace. 
 
 See it in action here: https://share.cleanshot.com/VD2C5Wpn
 
+https://user-images.githubusercontent.com/58832489/231047594-d14ab121-beb9-472b-8fe1-6231d6f40f97.mp4
+
+
+
 ## Features
 This describes how the features work in the context of our slack but could be easily modified to fit other use cases.
 
