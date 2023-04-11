@@ -28,7 +28,7 @@ Update the following variables in the code with appropriate values:
    - `SPREADSHEET_ID`: Spreadsheet ID found in the URL of the Google Sheet workbook
    - `RANGE_NAME`: Range within the sheet (e.g., 'Sheet1')
 
-##Use
+## Functionality
 The bot has paradigms for interacting with it through multiple methods (links for how to setup each included):
    - '/' Commands: https://api.slack.com/interactivity/slash-commands
    - @ Mentions: https://api.slack.com/tutorials/tracks/responding-to-app-mentions
