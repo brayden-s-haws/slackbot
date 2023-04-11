@@ -1,7 +1,5 @@
 # Slackbot for Product Management Community
 
-![Galactus_Desc](https://user-images.githubusercontent.com/58832489/231049472-38dbc135-c6fb-4c20-958d-b0f2d20ab3a8.png)
-
 ## Description
 This Slackbot was built for our Product Management Community's Slack workspace. It helps automate tasks and integrates with OpenAI's GPT-3 model to answer product management-related questions. It also has an integration Google Sheets that can be used for reading data from a sheet and updating a sheet. It has frameworks for interacting with the bot using: / commands, @ mentions, Slack events, and cron jobs.
 
