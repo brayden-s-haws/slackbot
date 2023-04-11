@@ -15,3 +15,28 @@ This describes how the features work in the context of our slack but could easil
 ## Setup
 I am hosting this on an always running instance through Replit but you can deploy this on any machine running python and flask. I am running this as a flask app so I could easily create API endpoints but you could probably also run it in python. This ended up using more packages than I imagined at the outset, you can install them using this command:
   <pre><code>pip install flask openai pytz apscheduler google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client slack-sdk slack-bolt</code></pre>
+
+Set up the following environment variables:
+   - `SLACK_APP_TOKEN`: Slack App Token (account level)
+   - `SLACK_BOT_TOKEN`: Slack Bot Token (bot level)
+   - `SLACK_CHANNEL`: Numeric code for the Slack channel where the bot posts
+   - `OPENAI_API_KEY`: API key for OpenAI GPT-3
+
+Configure the Google Sheets API credentials by saving the JSON file inside your project and providing its file path in the `GOOGLE_SHEETS_API_KEY_FILE` variable. You can find more details on how to do this here: https://cloud.google.com/iam/docs/keys-create-delete
+
+Update the following variables in the code with appropriate values:
+   - `SPREADSHEET_ID`: Spreadsheet ID found in the URL of the Google Sheet workbook
+   - `RANGE_NAME`: Range within the sheet (e.g., 'Sheet1')
+
+##Use
+The bot has paradigms for interacting with it through multiple methods (links for how to setup each included):
+   - '/' Commands: https://api.slack.com/interactivity/slash-commands
+   - @ Mentions: https://api.slack.com/tutorials/tracks/responding-to-app-mentions
+   - Slack Events: https://api.slack.com/tutorials/tracks/responding-to-app-mentions
+   - Cron Jobs: https://apscheduler.readthedocs.io/en/3.x/
+
+You can also integrate with the Google Sheets API so that your bot can read and write from one or multiple workbooks (https://developers.google.com/sheets/api/guides/concepts)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
