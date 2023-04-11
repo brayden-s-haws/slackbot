@@ -3,11 +3,7 @@
 ## Description
 This Slackbot was built for our Product Management Community's Slack workspace. It helps automate tasks and integrates with OpenAI's GPT-3 model to answer product management-related questions. It also has an integration Google Sheets that can be used for reading data from a sheet and updating a sheet. It has frameworks for interacting with the bot using: / commands, @ mentions, Slack events, and cron jobs.
 
-See it in action here: https://share.cleanshot.com/VD2C5Wpn
-
 https://user-images.githubusercontent.com/58832489/231047594-d14ab121-beb9-472b-8fe1-6231d6f40f97.mp4
-
-
 
 ## Features
 This describes how the features work in the context of our slack but could be easily modified to fit other use cases.
