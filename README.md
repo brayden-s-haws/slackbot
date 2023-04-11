@@ -14,4 +14,4 @@ This describes how the features work in the context of our slack but could easil
 
 ## Setup
 I am hosting this on an always running instance through Replit but you can deploy this on any machine running python and flask. I am running this as a flask app so I could easily create API endpoints but you could probably also run it in python. This ended up using more packages than I imagined at the outset, you can install them using this command:
-pip install flask openai pytz apscheduler google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client slack-sdk slack-bolt
+  pip install flask openai pytz apscheduler google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client slack-sdk slack-bolt
