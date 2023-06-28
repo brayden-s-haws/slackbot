@@ -15,7 +15,7 @@ This describes how the features work in the context of our slack but could be ea
 - **Welcome New Users**: When a new user joins the Slack workspace, the bot sends a welcome message to them.
 
 ## Setup
-This is hosted on an always running instance through Replit. But it could be deployed on almost any machine running python and flask. Flask was used for it ease of creating API endpoints. This ended up using more packages than imagined at the outset, they can be installed using this command:
+This is hosted on an always running instance through Replit. But it could be deployed on almost any machine running python and flask. Flask was used for it ease of creating endpoints. This ended up using more packages than imagined at the outset, they can be installed using this command:
   <pre><code>pip install flask openai pytz apscheduler google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client slack-sdk slack-bolt</code></pre>
 
 Set up the following environment variables:
