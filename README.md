@@ -50,4 +50,4 @@ ___
 ### Personal Progress ###
 * What I learned: How to work with the Slack and Google Sheets APIs. How to implement different endpoints for different functions and purposes. How to have different types of triggers live within the same server (API calls, cron jobs, etc.)
 * What I wish I had done differently: Spent more time on logging and tests. I mostly relied on print statements when there were errors and did not have programtic fallbacks for when there were issues.
-* What I am most proud of: Lines 55-70 in slackbot_v1.0.py. The response from OpenAI can take several seconds leaving users wondering if anything is happening. I thought this was a clear way to acknowledge to the user that something was in fact happening.
+* What I am most proud of: [Lines 55-70](https://github.com/brayden-s-haws/slackbot/blob/1a07f5742284a005de59a6da1b255803923c4903/slackbot_v1.0.py#L55) in slackbot_v1.0.py. The response from OpenAI can take several seconds leaving users wondering if anything is happening. I thought this was a clear way to acknowledge to the user that something was in fact happening.
