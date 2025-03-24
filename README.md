@@ -1,14 +1,16 @@
 # Slackbot for Product Management Community
 
+#### Current status: complete ####
+
 ## Description
-This Slackbot was built for our Product Management Community's Slack workspace. It helps automate tasks and integrates with OpenAI's GPT-3 model to answer product management-related questions. It also has an integration Google Sheets that can be used for reading data from a sheet and updating a sheet. It has frameworks for interacting with the bot using: / commands, @ mentions, Slack events, and cron jobs.
+This Slackbot was built for our Product Management Community's Slack workspace. It helps automate tasks and integrates with OpenAI's GPT-3.5 model to answer product management-related questions. It also has an integration Google Sheets that can be used for reading data from a sheet and updating a sheet. It has frameworks for interacting with the bot using: / commands, @ mentions, Slack events, and cron jobs.
 
 https://user-images.githubusercontent.com/58832489/231047594-d14ab121-beb9-472b-8fe1-6231d6f40f97.mp4
 
 ## Features
 This describes how the features work in the context of our slack but could be easily modified to fit other use cases.
 
-- **Ask GPT-3 Questions**: Users can ask questions using the `/ask` command, and the bot generates responses using the OpenAI GPT-3 model.
+- **Ask GPT-3.5 Questions**: Users can ask questions using the `/ask` command, and the bot generates responses using the OpenAI GPT-3.5 model.
 - **Post YouTube Video**: Users can run the `/who_are_you` command to learn about the bot's background. The bot responds with a YouTube video link.
 - **Respond to Mentions**: When the bot is mentioned with a "thanks" or "thank you" message, it responds with a thumbs-up emoji.
 - **Post Weekly Conversation Starters**: The bot automatically posts a weekly conversation starter from a Google Sheet to a Slack channel. It also marks the question in the sheet as having been used so that it won't be repeated.
@@ -22,7 +24,7 @@ Set up the following environment variables:
    - `SLACK_APP_TOKEN`: Slack App Token (account level)
    - `SLACK_BOT_TOKEN`: Slack Bot Token (bot level)
    - `SLACK_CHANNEL`: Numeric code for the Slack channel where the bot posts
-   - `OPENAI_API_KEY`: API key for OpenAI GPT-3
+   - `OPENAI_API_KEY`: API key for OpenAI GPT-3.5
 
 Configure the Google Sheets API credentials by saving the JSON file inside your project and providing its file path in the `GOOGLE_SHEETS_API_KEY_FILE` variable. You can find more details on how to do this here: https://cloud.google.com/iam/docs/keys-create-delete
 
@@ -42,3 +44,9 @@ You can also integrate with the Google Sheets API so that your bot can read and 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+___
+
+### Personal Progress ###
+* What I learned: How to work with the Slack and Google Sheets APIs. How to implement different endpoints for different functions and purposes. How to have different types of triggers live within the same server (API calls, cron jobs, etc.)
+* What I wish I had done differently: Spent more time on logging and tests. I mostly relied on print statements when there were errors and did not have programtic fallbacks for when there were issues.
