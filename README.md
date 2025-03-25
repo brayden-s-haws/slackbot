@@ -1,6 +1,6 @@
 # Slackbot for Product Management Community
 
-#### Current status: complete ####
+#### Current status: Complete
 
 ## Description
 This Slackbot was built for our Product Management Community's Slack workspace. It helps automate tasks and integrates with OpenAI's GPT-3.5 model to answer product management-related questions. It also has an integration Google Sheets that can be used for reading data from a sheet and updating a sheet. It has frameworks for interacting with the bot using: / commands, @ mentions, Slack events, and cron jobs.
@@ -47,7 +47,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ___
 
-### Personal Progress ###
+### Personal Progress
 * What I learned: How to work with the Slack and Google Sheets APIs. How to implement different endpoints for different functions and purposes. How to have different types of triggers live within the same server (API calls, cron jobs, etc.)
 * What I wish I had done differently: Spent more time on logging and tests. I mostly relied on print statements when there were errors and did not have programtic fallbacks for when there were issues.
 * What I am most proud of: [Lines 55-70](https://github.com/brayden-s-haws/slackbot/blob/1a07f5742284a005de59a6da1b255803923c4903/slackbot_v1.0.py#L55) in slackbot_v1.0.py. The response from OpenAI can take several seconds leaving users wondering if anything is happening. I thought this was a clear way to acknowledge to the user that something was in fact happening.
+* What I want to learn next: This was my first experience using Flask. I had a good experience with it but it made curious to try out Django and FastAPI.
